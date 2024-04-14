@@ -14,11 +14,13 @@ class FileSerializer(serializers.ModelSerializer):
     class Meta:
         model = Dashboard
         fields = (
-        'id', 'user', 'data', 'forecast', 'forecast_indexes', 'history_value', 'correlation_stat', 'adfuler_test')
+            'id', 'user', 'data', 'forecast', 'forecast_indexes', 'granger_test', 'history_value', 'correlation_stat',
+            'adfuler_test')
 
 
 class ForecastSerializer(serializers.ModelSerializer):
     class Meta:
         model = Dashboard
         fields = (
-        'id', 'user', 'data', 'forecast', 'forecast_indexes', 'history_value', 'correlation_stat', 'adfuler_test')
+            'id', 'user', 'data', 'forecast', 'forecast_indexes', 'granger_test', 'history_value', 'correlation_stat',
+            'adfuler_test')

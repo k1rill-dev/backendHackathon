@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f11149b0-c86e-4d98-8a28-b7415e675eb1" name="Changes" comment="add ml">
-      <change afterPath="$PROJECT_DIR$/machineLearning/migrations/0006_dashboard_history_value.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fv_bb_package/time_series_forecasting.py" beforeDir="false" afterPath="$PROJECT_DIR$/fv_bb_package/time_series_forecasting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machineLearning/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/machineLearning/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machineLearning/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/machineLearning/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machineLearning/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/machineLearning/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +162,7 @@
       <workItem from="1713032532504" duration="27000" />
       <workItem from="1713046710800" duration="635000" />
       <workItem from="1713047779752" duration="2222000" />
-      <workItem from="1713050829147" duration="11143000" />
+      <workItem from="1713050829147" duration="12445000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -185,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713060237447</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add ml">
+      <option name="closed" value="true" />
+      <created>1713064850935</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713064850935</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +201,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/salesModeling$views.coverage" NAME="views Coverage Results" MODIFIED="1713058661103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machineLearning" />
-    <SUITE FILE_PATH="coverage/salesModeling$time_series_forecasting.coverage" NAME="time_series_forecasting Coverage Results" MODIFIED="1713059473263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fv_bb_package" />
+    <SUITE FILE_PATH="coverage/salesModeling$time_series_forecasting.coverage" NAME="time_series_forecasting Coverage Results" MODIFIED="1713066803968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fv_bb_package" />
   </component>
 </project>
