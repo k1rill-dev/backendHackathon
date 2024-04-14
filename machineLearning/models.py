@@ -8,6 +8,7 @@ class Dashboard(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="Пользователь", verbose_name="Пользователь")
     data = models.FileField(upload_to='media/tmp', verbose_name="Данные", default=None)
     forecast = JSONField(verbose_name="Предсказания", null=True, blank=True)
+    history_value = JSONField(verbose_name="Историческое значение", null=True, blank=True)
     forecast_indexes = JSONField(verbose_name="Даты, по которым шел прогноз", null=True, blank=True)
     correlation_stat = JSONField(verbose_name="Корреляция", null=True, blank=True)
     granger_test = JSONField(verbose_name="Тест Грейнжера", null=True, blank=True)

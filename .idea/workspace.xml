@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f11149b0-c86e-4d98-8a28-b7415e675eb1" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/machineLearning/migrations/0003_alter_dashboard_options_dashboard_adfuler_test_and_more.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machineLearning/migrations/0004_remove_dashboard_cointegration_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machineLearning/migrations/0005_dashboard_forecast_indexes.py" afterDir="false" />
+    <list default="true" id="f11149b0-c86e-4d98-8a28-b7415e675eb1" name="Changes" comment="add ml">
+      <change afterPath="$PROJECT_DIR$/machineLearning/migrations/0006_dashboard_history_value.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fv_bb_package/time_series_forecasting.py" beforeDir="false" afterPath="$PROJECT_DIR$/fv_bb_package/time_series_forecasting.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/machineLearning/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/machineLearning/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/machineLearning/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/machineLearning/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/machineLearning/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/machineLearning/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/tmp/train.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/tmp/dota2-logo-official.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/tmp/train.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/tmp/Белокобыльский Кирилл Юрьевич (2).pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/tmp/Белокобыльский Кирилл Юрьевич (2)_RvuKTu2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +167,7 @@
       <workItem from="1713032532504" duration="27000" />
       <workItem from="1713046710800" duration="635000" />
       <workItem from="1713047779752" duration="2222000" />
-      <workItem from="1713050829147" duration="9156000" />
+      <workItem from="1713050829147" duration="11143000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -184,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712996682522</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add ml">
+      <option name="closed" value="true" />
+      <created>1713060237447</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713060237447</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +193,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="add ml" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ml" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/salesModeling$views.coverage" NAME="views Coverage Results" MODIFIED="1713058661103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machineLearning" />

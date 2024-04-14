@@ -63,8 +63,11 @@ class FirstPlace:
     def get_predict(self):
         return list(self.reg.predict(self.X_test))
 
-    def get_predict_indexes(self):
-        return list(self.y_test.index.strftime('%Y-%m-%d'))
+    def get_indexes(self):
+        return list(self.df.index.strftime('%Y-%m-%d'))
+
+    def get_history_value(self):
+        return list(self.y_train)
 
     def get_heatmap(self):
         m = self.df.corr()[['Продажи, рубли']]
@@ -121,7 +124,6 @@ class FirstPlace:
         for name, column in df_train.items():
             total_data.update(self._adfuller_test(column, name=column.name))
         return total_data
-
 
 # ahh = FirstPlace('train.xlsx')
 # print(ahh.fit_stacking())

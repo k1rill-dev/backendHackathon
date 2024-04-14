@@ -37,7 +37,8 @@ class GetDatasetAPIView(GenericAPIView):
             serializer.validated_data['correlation_stat'] = corr_stat
             serializer.validated_data['granger_test'] = granger_test
             serializer.validated_data['adfuler_test'] = adfuler_test
-            serializer.validated_data['forecast_indexes'] = time_series.get_predict_indexes()
+            serializer.validated_data['history_value'] = time_series.get_history_value()
+            serializer.validated_data['forecast_indexes'] = time_series.get_indexes()
             serializer.save()
             return JsonResponse({**serializer.data}, status=status.HTTP_201_CREATED, safe=False)
         else:
@@ -48,7 +49,7 @@ class GetForecastAPIView(GenericAPIView):
     serializer_class = ForecastSerializer
     permission_classes = [IsAuthenticated]
 
-    def get(self, request: Request, format=None):
+    def post(self, request: Request, format=None):
         dashboard_data = Dashboard.objects.get(pk=request.data['pk'])
         serializer = self.serializer_class(dashboard_data)
         return JsonResponse(serializer.data, status=status.HTTP_200_OK)
