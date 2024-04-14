@@ -11,13 +11,12 @@ from machineLearning.models import Dashboard
 
 
 class FileSerializer(serializers.ModelSerializer):
-    # file = serializers.FileField()
     class Meta:
         model = Dashboard
-        fields = '__all__'
+        fields = ('id', 'user', 'data', 'forecast', 'forecast_indexes', 'correlation_stat', 'adfuler_test')
 
 
 class ForecastSerializer(serializers.ModelSerializer):
     class Meta:
         model = Dashboard
-        fields = ('user', 'forecast')
+        fields = ('id', 'user', 'data', 'forecast', 'forecast_indexes', 'correlation_stat', 'adfuler_test')
